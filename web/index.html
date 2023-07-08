@@ -54,5 +54,26 @@
       });
     });
   </script>
+
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+
+  <script>
+   
+    var firebaseConfig = {
+      apiKey: "AIzaSyBrDMjG0GSasVclW79-J6I2Fxo1v5LJm_c",
+      authDomain: "myportfolioweb-9ee8f.firebaseapp.com",
+      projectId: "myportfolioweb-9ee8f",
+      storageBucket: "myportfolioweb-9ee8f.appspot.com",
+      messagingSenderId: "62206011498",
+      appId: "1:62206011498:web:ca731c8a71a404c20f8213",
+      measurementId: "G-CC4ZG9QBT9"
+    };
+  
+     // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  </script>
 </body>
 </html>
